@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Balsamiq+Sans:ital@0;1&family=EB+Garamond:ital@0;1&display=swap');
+body {
+   background-color: #330000;
+}
+
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffb3b3;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya', serif;
+  font-size: 2em;
+  line-height: 1.1em;
+  color: #330000;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-family: 'Balsamiq San' cursive;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 10px;
+  color:  #000000;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+.info {
+  font-size: 12px;
+    margin-left: 15px;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 350px;
+  height: 250px;
+ position: relative;
+justify-content: center;
+  align-items: center;
+}
+header {
+  color: white;
+   display: grid;
+ grid-template-columns: 125px auto;
+align-items: center;
+}
+
+.name {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+  list-style: none;
+}
+
+
+footer {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr max-content repeat(3, max-content);
+  align-items: center;
+  justify-content: center;
+  line-height: 4.5em;
+}
+
